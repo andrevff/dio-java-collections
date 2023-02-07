@@ -32,7 +32,7 @@ public class Exercicio2 {
         int cont = 0;
         while(iterator.hasNext()) {
             String next = iterator.next();
-            if(next.contains("s")) {
+            if(next.toLowerCase().contains("s")) {
                 cont++;
             }
         }
